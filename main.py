@@ -100,7 +100,7 @@ for ep in range(EPISODES):
     step = 0
     re_learn = 0
     score = 0
-    couter = 0
+    counter = 0
     state_, reward, done = game.step(0)
     state = np.array(state_)
     gtime = 0  # set game time back to 0
